@@ -7,7 +7,7 @@ import time
 # search btn
 def search_result():
     # initialize Chrome webdriver
-    bot=webdriver.Chrome(r"C:\Users\NEENAD\PycharmProjects\automation_test_chrome\chromedriver")
+    bot=webdriver.Chrome(r"Enter device address where chrome webdriver is present")
     # to get data from url
     bot.get('https://www.google.com/')
     # this will delay the execution by 10 second as some of the systems will perform slow due to network issue
@@ -24,22 +24,22 @@ def search_result():
 
 # facebook btn (shortcut key)
 def facebook():
-    bot1 = webdriver.Chrome(r"C:\Users\NEENAD\PycharmProjects\automation_test_chrome\chromedriver")
+    bot1 = webdriver.Chrome(r"Enter device address where chrome webdriver is present")
     bot1.get('https://www.facebook.com/')
 
 # twitter btn (shortcut key)
 def twitter():
-    bot2 = webdriver.Chrome(r"C:\Users\NEENAD\PycharmProjects\automation_test_chrome\chromedriver")
+    bot2 = webdriver.Chrome(r"Enter device address where chrome webdriver is present")
     bot2.get('https://www.twitter.com/')
 
 # github btn (shortcut key)
 def github():
-    bot3 = webdriver.Chrome(r"C:\Users\NEENAD\PycharmProjects\automation_test_chrome\chromedriver")
+    bot3 = webdriver.Chrome(r"Enter device address where chrome webdriver is present")
     bot3.get('https://www.github.com/')
 
 # coursera btn (shortcut key)
 def coursera():
-    bot4 = webdriver.Chrome(r"C:\Users\NEENAD\PycharmProjects\automation_test_chrome\chromedriver")
+    bot4 = webdriver.Chrome(r"Enter device address where chrome webdriver is present")
     bot4.get('https://www.coursera.com/')
 
 window=Tk()
