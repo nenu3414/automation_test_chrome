@@ -1,3 +1,3 @@
 "# automation_test_chrome" 
 
-To run this file it is must to install selenium module and chromedriver to your folder/system.
+I have made an application for testing Automation Browser using Selenium and Tkinter (For GUI). It is must to install Selenium module and chromedriver (chrome web browser engine) in your python folder to run this application on your system.
